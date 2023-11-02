@@ -2,8 +2,6 @@ import pika
 from publisher import Publisher
 from consumer import Consumer
 
-import pika
-
 RABBITMQ_HOST = 'localhost'
 connection = pika.BlockingConnection(pika.ConnectionParameters(RABBITMQ_HOST))
 
