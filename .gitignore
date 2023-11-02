@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyz
+*.pyw
+*.egg-info/
+dist/
+build/
+*.egg
+*.egg-info
+*.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.cache/
+.pytest_cache/
+*.log
+
+# Docker
+.docker/
+.dockerignore
+docker-compose.yml
+docker-compose.override.yml
+.env
+.env.local
+.env.*.local
+.env.build
+.env.deploy
+.env.test
+.env.prod
+*.dockerfile
+*.dockerignore
+
+/env/
