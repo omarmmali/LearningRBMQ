@@ -1,3 +1,5 @@
+import os
+import sys
 import pika
 from publisher import Publisher
 from consumer import Consumer

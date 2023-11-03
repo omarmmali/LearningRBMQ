@@ -2,7 +2,7 @@ class Consumer:
     def __init__(self, channel):
         self.channel = channel
         
-    def consume(self):
+    def consume(self) -> None:
         def __callback(ch, method, properties, body):
             print(f' [x] Received {body}')
         

@@ -2,7 +2,7 @@ class Publisher:
     def __init__(self, channel):
         self.channel = channel
 
-    def publish(self, message, exchange='', routing_key='hello'):
+    def publish(self, message, exchange='', routing_key='hello') -> None:
         
         self.channel.basic_publish(exchange=exchange,
                                 routing_key=routing_key,
